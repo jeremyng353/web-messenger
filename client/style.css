@@ -1,0 +1,133 @@
+#app-menu:hover li:hover {
+    background-color: lightblue;
+}
+
+#app-menu li {
+    display: inline-flex;
+}
+
+#app-menu {
+    background-color: blue;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    height: 80px;
+    flex: 50%;
+    text-align: center;
+    font-size: 24px;
+}
+
+li.menu-item a {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+.page-control {
+    background-color: blue;
+    height: 50px;
+}
+
+ul.room-list:hover li:hover {
+    background-color: lightblue;
+}
+
+.message {
+    float: left;
+    border-radius: 10px;
+    width: 80%;
+    background-color:rgb(211, 145, 122);
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+div.my-message {
+    float: right;
+    text-align: right;
+    border-radius: 10px;
+    background-color:coral;
+}
+
+@media screen and (max-width: 768px) {
+    #app-view {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    #app-view {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #app-view {
+        width: 80%;
+    }
+}
+
+.page-control {
+    text-align: center;
+    height: 50px;
+}
+
+#page-view {
+    height: 60vh;
+}
+
+.room-list {
+    min-height: 500px;
+}
+
+.room-list a {
+    font-size: 20px;
+    display:inline-block;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message-user {
+    white-space: initial;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.message-text {
+    white-space: initial;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.message-list {
+    max-height: 800px;
+    min-height: 600px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+
+.text-send {
+    width: 90%;
+}
+
+#app-view {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
